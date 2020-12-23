@@ -1,8 +1,5 @@
 # Frickly Systems Christmas Frickling
 
-Dieses Projekt ist eine Anleitung zum Nachbauen einer kleinen, weihnachtlichen Modellplatte mit einem blinkenden Weihnachtsbaum.
-Hierbei kann der Weihnachtsbaum über eine Webapp via Bluetooth gesteuert werden und auch nach dem hochladen einer Musik im Rhytmus zu dieser blinken.
-
 This project is a tutorial to build a small Christmas model with a blinking Christmas tree.
 The Christmas tree can be controlled via a web app connected to the system via Bluetooth and can also flash to the rhythm of music you can upload in the webapp.
 
