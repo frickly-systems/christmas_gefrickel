@@ -1,0 +1,5 @@
+.DS_Store
+*.png
+*.jpeg
+.eslintcache
+*.m4a

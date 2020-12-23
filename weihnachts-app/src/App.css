@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  } 
+
+  #Logo {
+    animation: App-logo-spin infinite 20s linear;
+    transform-origin: 50% 50%;
+    transform-box: fill-box;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.controls {
+  border: solid thick red;
+  border-radius: 8px;
+  display:flex;
+  flex-direction: column; 
+  display: right;
+  padding:20px;
+  margin-right: 20%;
+  margin-top: 25px;
+  margin-left: 20%
+}
+
+.controlElement {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.controlElement > button {
+  display: left;
+  text-align: center;
+}
+
+.christmas_stuff {
+  padding-top: 50px;
+  align-items: baseline;
+  align-content: bottom;
+  display: flex;
+  flex-direction: row;  
+  width: 100%;
+  justify-content: space-around;
+}
+
+.packet {
+  width:8%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.christmasTree {
+  width: 30%;
+}
