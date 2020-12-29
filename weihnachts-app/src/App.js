@@ -78,7 +78,7 @@ const AudioComponent = ({ bleCom }) => {
         setLastEvent(current_event);
       }
     },
-    [peakList, bleCom, ledOn]
+    [peakList, bleCom, ledOn, lastEvent]
   );
 
   const onPlayButtonClicked = (e) => {
@@ -142,11 +142,11 @@ function App() {
       {isPaired && <AudioComponent bleCom={bleCom} />}
 
       <div className="christmas_stuff">
-        <img className="packet" src={Packet1} />
-        <img className="packet" src={Packet2} />
+        <img className="packet" src={Packet1} alt="" />
+        <img className="packet" src={Packet2} alt="" />
         <ChristmasTree className="christmasTree" />
-        <img className="packet" src={Packet3} />
-        <img className="packet" src={Packet4} />
+        <img className="packet" src={Packet3} alt="" />
+        <img className="packet" src={Packet4} alt="" />
       </div>
     </div>
   );
